@@ -91,7 +91,7 @@
 @media (max-width: 600px) {
   #dynamic:before {
     content: " community manager";
-    animation: wordmove 30s infinite;
+    animation: wordmove 30s infinite !important;
   }
 
   @keyframes wordmove {
