@@ -42,7 +42,7 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.telco.in/"
+            href="https://twitter.com/aacdoteth"
           >
             Twitter
           </a>
