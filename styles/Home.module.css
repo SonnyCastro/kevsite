@@ -134,9 +134,10 @@
     letter-spacing: 0em;
     text-align: left;
     margin: 0%;
+    font-family: Inter;
   }
   .main {
-    padding: 0%;
+    padding: 0 1rem;
   }
   .text {
     width: 100%;
@@ -148,6 +149,7 @@
     font-style: normal;
   }
   .description {
+    font-family: Inter;
     line-height: 4.5rem;
   }
 }
