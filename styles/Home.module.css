@@ -89,6 +89,43 @@
 }
 
 @media (max-width: 600px) {
+  #dynamic:before {
+    content: " community manager";
+    animation: wordmove 30s infinite;
+  }
+
+  @keyframes wordmove {
+    10% {
+      content: " designer";
+    }
+    20% {
+      content: " social media manager";
+    }
+    30% {
+      content: " builder";
+    }
+    40% {
+      content: " community manager";
+    }
+    50% {
+      content: " designer";
+    }
+    60% {
+      content: " social media manager";
+    }
+    70% {
+      content: " builder";
+    }
+    80% {
+      content: " community manager";
+    }
+    90% {
+      content: " designer";
+    }
+    100% {
+      content: " social media manager";
+    }
+  }
   .links {
     font-size: 24.5px;
     font-style: normal;
@@ -109,5 +146,8 @@
     font-family: Inter;
     font-size: 30px;
     font-style: normal;
+  }
+  .description {
+    line-height: 4.5rem;
   }
 }
