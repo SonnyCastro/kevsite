@@ -39,7 +39,15 @@ export default function Home() {
           >
             Certik
           </a>{" "}
-          and <a href="https://www.telco.in/">Telcoin</a>.
+          and{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.telco.in/"
+          >
+            Telcoin
+          </a>
+          .
         </p>
         <p className={styles.links}>
           @ —{" "}
