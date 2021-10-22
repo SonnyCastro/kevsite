@@ -92,6 +92,7 @@
   #dynamic:before {
     content: " community manager";
     animation: wordmove;
+    -webkit-animation: wordmove;
     -webkit-animation-name: wordmove;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 30s;
