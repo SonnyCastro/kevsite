@@ -58,46 +58,46 @@
 }
 
 #dynamic:before {
-  content: " community manager";
+  content: " community manager.";
   animation: wordmove 30s infinite;
 }
 
 @keyframes wordmove {
   10% {
-    content: " designer";
+    content: " designer.";
   }
   20% {
-    content: " social media manager";
+    content: " social media manager.";
   }
   30% {
-    content: " builder";
+    content: " builder.";
   }
   40% {
-    content: " community manager";
+    content: " community manager.";
   }
   50% {
-    content: " designer";
+    content: " designer.";
   }
   60% {
-    content: " social media manager";
+    content: " social media manager.";
   }
   70% {
-    content: " builder";
+    content: " builder.";
   }
   80% {
-    content: " community manager";
+    content: " community manager.";
   }
   90% {
-    content: " designer";
+    content: " designer.";
   }
   100% {
-    content: " social media manager";
+    content: " social media manager.";
   }
 }
 
 @media (max-width: 600px) {
   #dynamic:before {
-    content: " community manager";
+    content: " community manager.";
     animation: wordmove;
     -webkit-animation: wordmove;
     -webkit-animation-name: wordmove;
@@ -157,7 +157,6 @@
     margin: 0%;
     font-size: 1rem;
     font-family: "Inter", sans-serif;
-
     font-size: 30px;
     font-style: normal;
   }

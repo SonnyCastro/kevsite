@@ -58,7 +58,7 @@ export default function Home() {
           >
             Rainbow
           </a>
-          ,
+          ,{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
