@@ -15,7 +15,10 @@ export default function Home() {
         <p className={styles.description + " " + styles.text}>
           Kevin Castro is a web3
         </p>
-        <span className={styles.text} id={styles.dynamic}></span>
+        <span
+          className={styles.text + " " + styles.dynamic_word}
+          id={styles.dynamic}
+        ></span>
         <p className={styles.currently + " " + styles.text}>
           Currently at{" "}
           <a
