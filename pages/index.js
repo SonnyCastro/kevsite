@@ -13,8 +13,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <p className={styles.description + " " + styles.text}>
-          Kevin Castro is a web3 <span id={styles.dynamic}></span>.
+          Kevin Castro is a web3
         </p>
+        <span className={styles.text} id={styles.dynamic}></span>
         <p className={styles.currently + " " + styles.text}>
           Currently at{" "}
           <a
@@ -26,7 +27,7 @@ export default function Home() {
           </a>
           .
         </p>
-        <p className={styles.currently + " " + styles.text}>
+        <p className={styles.previously + " " + styles.text}>
           Previously at{" "}
           <a
             target="_blank"
