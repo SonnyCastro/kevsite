@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Kevin's Site</title>
-        <meta name="description" content="This is me" />
+        <title>Kevin Castro</title>
+        <meta name="description" content="Kevin Castro is building on web3." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -54,7 +54,7 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.telco.in/"
+            href="https://rainbow.me/aac.eth"
           >
             Rainbow
           </a>
@@ -62,7 +62,7 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.telco.in/"
+            href="https://etherean.substack.com/"
           >
             Substack
           </a>
