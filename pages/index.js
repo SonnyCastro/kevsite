@@ -54,7 +54,7 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/aacdoteth"
+            href="https://twitter.com/_etherean"
           >
             Twitter
           </a>
